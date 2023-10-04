@@ -6,3 +6,21 @@ updates:
     schedule:
       day: saturday
       interval: weekly
+  # app
+  - package-ecosystem: npm
+    directory: /
+    open-pull-requests-limit: 5
+    schedule:
+      interval: daily
+    versioning-strategy: increase-if-necessary
+    groups:
+      minor & patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
