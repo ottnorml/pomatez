@@ -99,7 +99,7 @@
     "@jest-runner/electron": "^3.0.0",
     "electron-devtools-installer": "^3.2.0",
     "@types/lodash.debounce": "^4.0.6",
-    "@types/node-notifier": "8.0.2",
+    "@types/node-notifier": "8.0.3",
     "@types/universal-analytics": "^0.4.4",
     "@types/uuid": "7.0.3",
     "babel-core": "^6.26.3",
